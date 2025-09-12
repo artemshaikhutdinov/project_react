@@ -11,6 +11,7 @@ function App() {
       <Goodbye />
       <AgeInfo age={23} />
       <AgeInfo age={26} />
+      <p>Live</p>
     </div>
   );
 }
