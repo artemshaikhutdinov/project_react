@@ -6,26 +6,28 @@ import DogCard from "./components/DogCard/DogCard";
 
 import PersonalGreeting from "./components/PersonalGreeting/PersonalGreeting";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
+import SpaceMissionForm from "./components/SpaceMissionForm/SpaceMissionForm";
 
 function App() {
   return (
     <div>
-      <PersonalGreeting />
+      <SpaceMissionForm/>
+      {/* <PersonalGreeting />
 
       <Counter />
-      <DogCard />
+      <DogCard /> */}
       {/* <Goodbye />
       <AgeInfo age={23} />
       <AgeInfo age={26} />
       <p>Live</p> */}
 
-      <ProfileCard
+      {/* <ProfileCard
         avatar={"https://static.posters.cz/image/1300/202629.jpg"}
         name={"Sub-zero"}
         description={
           "Legal status: none, however resides somewhere in china. Occupation: life long member of the lin kuei, a rare clan of chinese, ninja-type, assassins"
         }
-      />
+      /> */}
     </div>
   );
 }
